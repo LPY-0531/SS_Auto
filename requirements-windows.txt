@@ -1,0 +1,3 @@
+-r requirements.txt
+# Trio 在 Windows 需要此依赖；跨平台下载时 pip 不会采用 Windows 的环境标记。
+cffi==2.0.0
