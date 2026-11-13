@@ -1,0 +1,48 @@
+# Python environments and caches
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local spreadsheets and exports (case-insensitive extensions)
+*.[xX][lL][sS]
+*.[xX][lL][sS][xX]
+*.[xX][lL][sS][mM]
+*.[xX][lL][sS][bB]
+*.[xX][lL][tT]
+*.[xX][lL][tT][xX]
+*.[xX][lL][tT][mM]
+*.[cC][sS][vV]
+*.[tT][sS][vV]
+~$*
+
+# Personal progress, browser sessions, and screenshots
+*.jsonl
+*.pending.json
+*.log
+*.png
+*.jpg
+*.jpeg
+/browser/
+/profiles/
+/data/
+.env
+.env.*
+!.env.example
+
+# Downloaded runtimes and generated packages
+.windows-build/
+build/
+dist/
+*.whl
+*.zip
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
