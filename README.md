@@ -2,6 +2,14 @@
 
 Windows 10/11 x64 桌面工具，复用项目中已验证的 Selenium 填报逻辑。
 
+## 产品规划（源码仓库）
+
+以下文档描述后续计划，新增功能尚未实现：
+
+- [产品规划与路线图](docs/product-roadmap.md)
+- [下一版需求与验收标准：问卷导入—关键词整理—审核填报](docs/next-version-prd.md)
+- [下一版开发任务与验收对应](docs/next-version-tasks.md)
+
 ## 使用
 
 将打包生成的 Windows 压缩包完整解压，双击文件夹里的 `双击启动.cmd`。
